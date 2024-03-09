@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            hitam: "#000000",
+            birutua: "#0B60B0",
+            birumuda: "#40A2D8",
+            putih: "#F0EDCF",
+            
+            
+            
+          },
+
+          container: {
+            center: true,
+            padding: "16px"
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-birutua">
+  <section id="home" class="pt-24 pb-24">
+    
+    <div class="container">
+    
+        <div class="flex flex-wrap">
+            <div align="center" class="w-full px-4 lg:w-1/2 self-center">
+                <img src="img/IMG20231230124322.jpg" alt=""width="350" class="rounded-full shadow-xl shadow-birumuda">
+            </div>
+            <div class="w-full px-4 lg:w-1/2 self-center">
+                <h1 class="mt-5 text-lg mb-5 lg:text-4x1 font-bold text-black">HELLO I<span class="text-hitam">'</span>M <span class="title text-hitam"></span></h1>
+                <p class="mb-5 tracking-tight font-extralight text-hitam">Meski kegagalan dapat membuatmu jatuh dalam putus asa, kamu harus bangkit lagi. Tidak apa-apa untuk berhenti sejenak untuk menenangkan diri, tetapi jangan lupa untuk kembali melangkah.</p>
+                <a href="#" class="bg-hitam px-5 py-2 font-bold text-lg text-birutua rounded-lg shadow-xl shadow-birumuda">CV</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="about" class="pt-24 pb-24">
+    <div class="container">
+      <h1 class="text-center font-bold text-lg mb-5">ABOUT ME.</h1>
+      <div class="flex flex-wrap">
+        <div align="center" class="w-full lg:w-1/2 px-4 mt-5 mb-8">
+          <img src="img/1699801927520.jpg" alt="" width="350" class="rounded-full shadow-xl shadow-birumuda"> 
+        </div>
+        <div class="w-full lg:1/2 px-4 self-center">
+          <h1 class="font-bold text-lg text-hitam mb-5">HELLO EVERYONE</h1>
+          <hr class="border-hitam sm:mx-auto mb-7">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+            <div class="mb-2 grid">
+              <h1 class="font-bold text-lg text-hitam mb-2">Social Media</h1>
+              <a href="https://www.facebook.com/profile.php?id=100078877548096" class="font-regular text-md text-black">Facebook</a>
+              <a href="https://www.instagram.com/asgardian2008/" class="font-regular text-md text-black">Instagram</a>
+              <a href="https://www.threads.net/@asgardian2008" class="font-regular text-md text-black">Threads</a>
+              <a href="https://www.tiktok.com/@euricodl" class="font-regular text-md text-black">TikTok</a>
+              <a href="https://twitter.com/Mr_Prince15" class="font-regular text-md text-black">X</a>
+              <a href="https://www.youtube.com/channel/UCTLtBRZLZ0mIBO9PlHJcUUw" class="font-regular text-md text-black">YouTube</a>
+            </div>
+            <div class="mb-2 grid">
+              <h1 class="font-bold text-lg text-hitam mb-2">Activity</h1>
+              <h1 class="font-regular text-md text-black">School</a>
+              <h1 class="font-regular text-md text-black">Play Games</a>
+              <h1 class="font-regular text-md text-black">Sleep</a>
+              <h1 class="font-regular text-md text-black">Coding</a>
+              <h1 class="font-regular text-md text-black">Design</a>
+              <h1 class="font-regular text-md text-black">Run</a>
+            </div>
+            <div class="mb-2 ">
+              <h1 class="font-bold text-lg text-hitam mb-2">Web Personal</h1>
+              <a href="http://instagram.com/" class="font-regular flex text-md text-black">Portofolio</a>
+              <a href="http://instagram.com/" class="font-regular text-md text-black">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('.title', {
+      strings: ['EURICO DARU LUMINTANG','Web Developer','Cyber Security'],
+      typeSpeed: 80,
+      backspeed: 80,
+      loop: true
+    });
+  </script>
+</body>
+</html>
